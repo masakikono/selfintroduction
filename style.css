@@ -1,8 +1,17 @@
 h1 {
   color: #000080;
   background-color: ;
-  width: 50%;
+  width: 100%;
   /* text-align: center;
   float: flex;
   align-items: center ; */  
+}
+
+/* header */
+
+.icon-img{
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+  padding: 20px;
 }
