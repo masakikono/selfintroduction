@@ -6,8 +6,11 @@
     <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="style.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="sample.js"></script> 
   </head>
   <body>
     <a class="menu-toggle rounded" href="#">
@@ -23,20 +26,20 @@
         <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="#contact">CONTACT</a></li>
       </ul>
     </nav>
-    <header class="masthead d-flex">
-      <div class="container text-center my-auto">
+    <header class="masthead d-flex" src="./img/profile.jpg">
+      <div class="container text-center my-auto" src="./img/profile.jpg">
         <h1 class="mb-1 headfonts">Portfolio Site</h1>
         <h3 class="mb-5 headfonts"><em>~masaki kono~</em></h3>
       </div>
+      <div class="overlay"></div>
     </header>
     <section class="content-section bg-light textsecondary" id="page-career" >
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <div class="content-section-heading">
-              <h3 class="text-secondary mb-0">Profile</h3>
-              <h2>自己紹介</h2>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#profile">Who's me?</a>
+              <h5 class="text-secondary mt-5">自己紹介</h5>
+              <h1>Profile</h1>
             </div>
             <div class="row">
               <div class="col-lg-6">
@@ -50,9 +53,38 @@
                   <li>名前：河野  聖</li>
                   <li>出身：千葉県鎌ヶ谷市</li>
                   <li>年齢：27歳（2020年８月時点）</li>
-                  <li>趣味：筋トレ、コーヒー、旅</li>
+                  <li>趣味：筋トレ、コーヒー、旅行</li>
                 </ul>
-                <a class="btn btn-dark btn-xl js-scroll-trigger" href="#works">実績</a>
+                <a class="btn btn-dark btn-xl js-scroll-trigger" href="detail.html">詳細実績</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-section textsecondary" id="page-career" >
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="content-section-heading">
+              <h5 class="text-secondary mt-5">職歴</h5>
+              <h1>Career</h1>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <span class="my-5 float-left">
+                  <img src="./img/profile.jpg" alt="masaki-icon" class="icon-img">
+                </span>
+              </div>
+              <div class="col-lg-6">
+                <p class="lead mb-5 text-left"></p>
+                <ul class="lead mb-5 text-left">
+                  <li>2016年4月：大学卒業後、外資系医療機器メーカーの営業職として千葉県エリアに営業職として配属される。</li><br>
+                  <li>2019年4月：上記会社を退職し、フィリピン・セブ島のへプログラミング＆語学留学</li><br>
+                  <li>2019年7月：その後直接オーストラリア・メルボルンへ渡り、バリスタ＆語学留学</li><br>
+                  <li>2020年1月：帰国後に転職活動し、渋谷のSESベンチャー企業に就職。現在に至る</li><br>
+                </ul>
+                <a class="btn btn-dark btn-xl js-scroll-trigger mb-5" href="career.html">詳細実績</a>
               </div>
             </div>
           </div>
@@ -64,9 +96,8 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <div class="content-section-heading">
-              <h3 class="text-secondary mb-0">Profile</h3>
-              <h2>自己紹介</h2>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#profile">Who's me?</a>
+              <h5 class="text-secondary mt-5">スキルセット・資格</h5>
+              <h1>Skill</h1>
             </div>
             <div class="row">
               <div class="col-lg-6">
@@ -77,12 +108,41 @@
               <div class="col-lg-6">
                 <p class="lead mb-5 text-left"></p>
                 <ul class="lead mb-5 text-left">
-                  <li>名前：河野  聖</li>
-                  <li>出身：千葉県鎌ヶ谷市</li>
-                  <li>年齢：27歳（2020年８月時点）</li>
-                  <li>趣味：筋トレ、コーヒー、旅</li>
+                  <li>HTML：</li>
+                  <li>CSS：</li>
+                  <li>PHP：</li>
+                  <li>JS：</li>
                 </ul>
-                <a class="btn btn-dark btn-xl js-scroll-trigger" href="#works">実績</a>
+                <a class="btn btn-dark btn-xl js-scroll-trigger" href="qualification.html">詳細実績</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-section textsecondary" id="page-career" >
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="content-section-heading">
+              <h5 class="text-secondary mt-5">作品集</h5>
+              <h1>Works</h1>
+              <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://github.com/masakikono" target="_blank">My Github Account</a>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <span class="my-5 float-left">
+                  <img src="./img/profile.jpg" alt="masaki-icon" class="icon-img">
+                </span>
+              </div>
+              <div class="col-lg-6">
+                <p class="lead mb-5 text-left"></p>
+                <ul class="lead mb-5 text-left">
+                  <li><a href="#" class="">自己紹介サイト</a>：＊本サイト</li><br>
+                  <li><a href="#" class="">パン屋HP＆注文サイト</a>：セブ留学時に作成、その後修正</li><br>
+                  <li><a href="#" class="">方言クイズサイト</a>：セブ留学時にチーム開発にて作成、その後修正</li><br>
+                  <li><a href="#" class="">コーヒー愛好家用SNS</a>：</li><br>
+                </ul>
               </div>
             </div>
           </div>
@@ -94,64 +154,63 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <div class="content-section-heading">
-              <h3 class="text-secondary mb-0">Profile</h3>
-              <h2>自己紹介</h2>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#profile">Who's me?</a>
+              <h5 class="text-secondary mt-5">お問い合わせ</h5>
+              <h1>Contact</h1>
+              <form action="check.php" method="post">
+                <div>
+                    <label for="name">お名前：</label>
+                    <input id="name" type="" name="name"><br>
+                    <label for="email">E-mail：</label>
+                    <input id="email" type="email" name="email"><br>
+                    <label for="name">性別：</label>
+                    <input id="male" type="radio" name="sex"><label for="male">男性</label><br>
+                    <input id="female" type="radio" name="sex"><label for="female">女性</label><br>
+                    <input id="other" type="radio" name="sex"><label for="other">その他</label><br>
+                    <label>ご依頼内応：</label>
+                    <select name="order">
+                      <option value="web">Web制作案件</option>
+                      <option value="lp">LP作成</option>
+                      <option value="translation">通訳</option>
+                      <option value="barista">バリスタ</option>
+                    </select><br>
+                    <label>ご連絡可能な時間帯：</label><br>
+                    <input id="morning" type="checkbox" name="hour"><label for="morning">午前中</label><br>
+                    <input id="afternoon" type="checkbox" name="hour"><label for="afternoon">13時〜15時</label><br>
+                    <input id="evening" type="checkbox" name="hour"><label for="evening">16時〜18時</label><br>
+                    <input id="night" type="checkbox" name="hour"><label for="night">19時以降</label><br>
+                    備考：<textarea type="" name="text"></textarea>
+                    <input class="mb-5" type="submit" value="送信">
+                </div>
+              </form>
             </div>
             <div class="row">
-              <div class="col-lg-6">
-                <span class="my-5 float-left">
-                  <img src="./img/profile.jpg" alt="masaki-icon" class="icon-img">
-                </span>
-              </div>
-              <div class="col-lg-6">
-                <p class="lead mb-5 text-left"></p>
-                <ul class="lead mb-5 text-left">
-                  <li>名前：河野  聖</li>
-                  <li>出身：千葉県鎌ヶ谷市</li>
-                  <li>年齢：27歳（2020年８月時点）</li>
-                  <li>趣味：筋トレ、コーヒー、旅</li>
-                </ul>
-                <a class="btn btn-dark btn-xl js-scroll-trigger" href="#works">実績</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="content-section bg-light textsecondary" id="page-career" >
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <div class="content-section-heading">
-              <h3 class="text-secondary mb-0">Profile</h3>
-              <h2>自己紹介</h2>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#profile">Who's me?</a>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <span class="my-5 float-left">
-                  <img src="./img/profile.jpg" alt="masaki-icon" class="icon-img">
-                </span>
-              </div>
-              <div class="col-lg-6">
-                <p class="lead mb-5 text-left"></p>
-                <ul class="lead mb-5 text-left">
-                  <li>名前：河野  聖</li>
-                  <li>出身：千葉県鎌ヶ谷市</li>
-                  <li>年齢：27歳（2020年８月時点）</li>
-                  <li>趣味：筋トレ、コーヒー、旅</li>
-                </ul>
-                <a class="btn btn-dark btn-xl js-scroll-trigger" href="#works">実績</a>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <footer>
-      SNS account
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="content-section-heading">
+              <h1 class="mt-5">SNS</h1>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="mb-5">
+                  <a href="https://twitter.com/masaki19931015" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+                  <a href="https://www.instagram.com/masaki19931015/?hl=ja" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+                  <a href="https://www.facebook.com/masakikono1015" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+                  <a href="https://masakikono.work/" target="_blank"><i class="fas fa-blog fa-3x"></i></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="sample.js"></script>
+    <!-- <script src="sample.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
   </body>
 </html>
